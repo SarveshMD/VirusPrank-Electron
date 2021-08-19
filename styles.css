@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+body {
+	display: grid;
+	place-items: center;
+	background-color: #000000;
+}
+
+h1,
+p {
+	font-family: Recursive, sans-serif;
+	color: azure;
+}
