@@ -1,9 +1,11 @@
 const { app, BrowserWindow } = require("electron");
+const { exec } = require("child_process");
 
 app.whenReady().then(() => {
 	const myWindow = new BrowserWindow({
-		width: 800,
-		height: 800,
+		height: 2000,
+		width: 2000,
+		fullscreen: true,
 		webPreferences: {
 			nodeIntegration: true,
 		},

@@ -1,12 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@font-face {
+	font-family: "Hacked-KerX";
+	src: url("Hacked-KerX.ttf");
+}
+
 body {
 	display: grid;
 	place-items: center;
 	background-color: #000000;
+	font-size: 2rem;
+	font-family: "Hacked-KerX";
+	color: rgb(27, 163, 27);
 }
 
-h1,
-p {
-	font-family: Recursive, sans-serif;
-	color: azure;
+h1 {
+	font-size: 2em;
+	color: rgb(163, 27, 27);
+}
+
+p b {
+	font-size: 1.3em;
+	color: rgb(163, 27, 27);
+}
+
+body {
+	user-select: none;
+}
+
+#small-margin-top {
+	margin-top: 0;
 }

@@ -11,5 +11,8 @@
 	"license": "ISC",
 	"devDependencies": {
 		"electron": "^13.2.1"
+	},
+	"dependencies": {
+		"child_process": "^1.0.2"
 	}
 }
