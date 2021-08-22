@@ -9,6 +9,7 @@ body {
 	background-color: #000000;
 	font-size: 2rem;
 	font-family: "Hacked-KerX";
+	user-select: none;
 	color: rgb(27, 163, 27);
 }
 
@@ -20,10 +21,6 @@ h1 {
 p b {
 	font-size: 1.3em;
 	color: rgb(163, 27, 27);
-}
-
-body {
-	user-select: none;
 }
 
 #small-margin-top {
