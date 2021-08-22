@@ -1,5 +1,4 @@
 const { app, BrowserWindow } = require("electron");
-const { exec } = require("child_process");
 
 app.whenReady().then(() => {
 	const myWindow = new BrowserWindow({

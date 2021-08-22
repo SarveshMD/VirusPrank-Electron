@@ -26,3 +26,6 @@ p b {
 #small-margin-top {
 	margin-top: 0;
 }
+#small-margin-top b {
+	letter-spacing: 0.1vw;
+}
